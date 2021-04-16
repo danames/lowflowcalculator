@@ -1,0 +1,32 @@
+Low Flow Calculator (tm)
+End User License Agreement
+October 16, 2003
+
+
+I. DEFINITIONS
+
+a. "The software" means the Low Flow Calculator software including associated binary executables, data files and documentation. 
+b. "License" means this document.
+c. "The developer" means Daniel P. Ames of HydroMap, a registered Utah company.
+d. "User" (or "You") means an individual or a legal entity exercising rights under, and complying with all of the terms of this License.
+
+
+II. LICENSE
+   
+User may use the software on one computer for commercial, non-commercial and educational purposes.  User may not redistribute the software to third parties under any circumstances.  User may not disassemble, reverse engineer or otherwise use the software as a model for building new software or code modules. This restriction protects all icons, graphics, algorithms and user interface elements that constitute the software.  
+
+
+III. DISCLAIMER OF WARRANTY.  
+
+The software is provided under this license on an "as is" basis, without warranty of any kind, either expressed or implied, including, without limitation, warranties that the software is free of defects, merchantable, fit for a particular purpose or non-infringing. The entire risk as to the quality and performance of the software is with user. Should the software prove defective in any respect, you (not the developer) assume the cost of any necessary servicing, repair or correction. This disclaimer of warranty constitutes an essential part of this license. No use of the software is authorized hereunder except under this disclaimer.
+
+
+IV. TERMINATION.
+
+This License and the rights granted hereunder will terminate automatically if user fails to comply with terms herein.  Provisions which, by their nature, must remain in effect beyond the termination of this License shall survive.
+
+
+V. LIMITATION OF LIABILITY.
+
+Under no circumstances and under no legal theory, whether tort (including negligence), contract, or otherwise, shall the developers be liable to user or any other person for any indirect, special, incidental, or consequential damages of any character including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses, even if such party shall have been informed of the possibility of such damages. This limitation of liability shall not apply to liability for death or personal injury resulting from such party's negligence to the extent applicable law prohibits such limitation. Some jurisdictions do not allow the exclusion or imitation of incidental or consequential damages, so that exclusion and limitation may not apply to user.
+

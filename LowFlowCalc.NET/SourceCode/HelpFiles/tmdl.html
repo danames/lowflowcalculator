@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>tmdl</title>
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0">
+		<meta name="ProgId" content="VisualStudio.HTML">
+		<meta name="Originator" content="Microsoft Visual Studio.NET 7.0">
+	</head>
+	<body>
+		<P><FONT face="Arial, Helvetica, sans-serif" size="2"><STRONG>Using Low Flow Calculator™ 
+					for TMDLs</STRONG></FONT></P>
+		<P><FONT face="Arial, Helvetica, sans-serif" size="2">When estimating the total maximum 
+				daily load (TMDL) of a contaminant in a stream, it is useful to use 
+				conservative assumptions wherever possible to ensure a margin of 
+				safety.&nbsp;One common conservative assumption is to use the&nbsp;"7Q10" 
+				streamflow as a representative dry condition,&nbsp;particularly in cases where 
+				water quality is worst during low flow periods (e.g. if it is dominated by 
+				point sources such as wastewater treatment plants.) The 7Q10 streamflow is the 
+				yearly 7-day average low streamflow with a 10-year return period.</FONT></P>
+		<P></P>
+		<P><FONT face="Arial, Helvetica, sans-serif" size="2">The EPA document, <I>Guidance for 
+					Water Quality-Based Decisions: The TMDL Process</I>, states: <BLOCKQUOTE>When 
+					developing a TMDL, design conditions are those critical conditions that must be 
+					specified in order to determine attainment of water quality standards. In 
+					specifying conditions in the waterbody, an attempt is made to use a reasonable 
+					"worst case" condition. For example, stream analysis often uses a low flow 
+					(e.g., 7-day low flow, once in 10-years commonly known as 7Q10 or 
+					biologically-based 4-day 3-year flows) high temperature design condition.</BLOCKQUOTE>
+				<P>To estimate the 7Q10 low streamflow at a particular location, you must have a 
+					data set of observed (or modeled) daily streamflow records for several years at 
+					the location.&nbsp;&nbsp;Missing data is accomodated in Low Flow Calculator™ by 
+					only computing the 7-day average low flow for those periods where data 
+					exist.&nbsp; Because of this,&nbsp;it is important that there be an adequate 
+					number of consecutive observations each year in the daily streamflow 
+					recordset.&nbsp; Use the Parameters dialog (accesible through the menu item: 
+					"Options|Change Parameters") to set the averaging period to 7 days, and the 
+					return period to 10 years.&nbsp; Ensure that the "Low flow" radio button is 
+					selected, and choose the period of the year to be used for the computation 
+					(typically January through December). The following figure shows the parameter 
+					settings for a 7Q10 low streamflow calculation:</P>
+				<P align="center"><IMG alt="" src="7q10params.gif"></P>
+				<P>To use your data in Low Flow Calculator™, you must save it in an ASCII text 
+					format, one line per observation, with dates and streamflow values separated by 
+					commas or tabs. Load your data file into Low Flow Calculator™ using the 
+					"File|Load Data File" menu item. The following figure shows the ASCII 
+					formatting required by Low Flow Calculator™:</P>
+				<P align="center"><IMG alt="" src="fileformat_tab.gif"></P>
+				<P>Once your data file is loaded into Low Flow Calculator™, you can compute the 
+					7Q10 low streamflow value by clicking the "Compute 7Q10" <IMG alt="" src="lightningbolt.gif" align="top">
+					button on the tool bar.&nbsp; The results will be displayed in the "Report" 
+					text area as shown below:</P>
+				<P align="center"><IMG alt="" src="7q10results.gif">&nbsp;</P>
+				<P>Results of the analysis will include an estimate of the 7Q10 low streamflow 
+					value with 5% and 95% confidence limits.&nbsp; The confidence limits give you a 
+					feel for the robustness of the 7Q10 estimate. The tighter the confidence 
+					limits, the more confidence you can have in the 7Q10 estimate.&nbsp; Factors 
+					that increase the confidence bounds include: using a small number of years of 
+					data and using data that fluctuates dramatically year to year.
+				</P>
+				<P>Once you have computed the 7Q10 streamflow, you can use it in your computations 
+					of contaminant load in a stream by multiplying it by the concentration of 
+					contaminant.
+				</P>
+				<P>For more information, please see:<BR>
+					USEPA (2002). "Appendix D - Selected Technical Considerations."<B> </B><I>Guidance 
+						for Water Quality-Based Decisions: The TMDL Process </I>[online] URL: &lt;<A href="http://www.epa.gov/OWOW/tmdl/decisions/decapd.html" target="_blank">http://www.epa.gov/OWOW/tmdl/decisions/decapd.html</A>
+				&gt;.</FONT>
+		</P>
+	</body>
+</html>
